@@ -1,0 +1,21 @@
+{
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorWidth": 3,
+    "editor.fontLigatures": true,
+    "editor.minimap.renderCharacters": false,
+    "editor.mouseWheelZoom": true,
+    "editor.stickyScroll.enabled": true,
+    "editor.tabSize": 4,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.autoSave": "onFocusChange",
+    "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.mouseWheelZoom": true,
+    "window.zoomLevel": 0.5,
+    "workbench.colorTheme": "Dracula For Rust Theme",
+    "workbench.iconTheme": "file-icons-colourless",
+    "workbench.tree.indent": 16,
+    "workbench.tree.renderIndentGuides": "always",
+    "zenMode.fullScreen": false
+}
