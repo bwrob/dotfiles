@@ -1,0 +1,24 @@
+{
+    "recommendations": [
+        "rust-lang.rust-analyzer",
+        "tamasfe.even-better-toml",
+        "dustypomerleau.rust-syntax",
+        "fill-labs.dependi",
+        "jscearcy.rust-doc-viewer",
+        "zhangyue.rust-mod-generator",
+        "swellaby.vscode-rust-test-adapter",
+        "lorenzopirro.rust-flash-snippets",
+        "mooman219.rust-assist",
+        "jinxdash.prettier-rust",
+        "dlahmad.dracula-for-rust-theme",
+        "oderwat.indent-rainbow",
+        "pkief.material-icon-theme",
+        "dekirisu.dekirisu-rust-themes",
+        "mhutchie.git-graph",
+        "github.vscode-pull-request-github",
+        "github.vscode-github-actions",
+        "richie5um2.vscode-sort-json",
+        "jgclark.vscode-todo-highlight",
+        "ms-vscode.vs-keybindings"
+    ]
+}

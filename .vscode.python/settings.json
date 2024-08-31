@@ -46,11 +46,11 @@
     "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
     "terminal.integrated.fontSize": 12,
     "terminal.integrated.mouseWheelZoom": true,
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 0.1,
     "workbench.colorTheme": "PyCharm Night Theme",
     "workbench.iconTheme": "file-icons-colourless",
     "workbench.preferredDarkColorTheme": "PyCharm Night Theme",
-    "workbench.tree.indent": 20,
+    "workbench.tree.indent": 16,
     "workbench.tree.renderIndentGuides": "always",
     "zenMode.fullScreen": false
 }
