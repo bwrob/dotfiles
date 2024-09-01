@@ -1,8 +1,8 @@
-# Aliases
-alias dir.all="eza -l --group-directories-first --icons --git-ignore --all"
-alias dir.git="eza -l --group-directories-first --icons"
-alias dir.tree="eza -l --group-directories-first --icons --git-ignore --tree --level 2"
-alias dir="eza -l --group-directories-first --icons --git-ignore"
+# -- Aliases --
+alias cat='bat'
+alias dir.all="eza -l --group-directories-first --no-filesize --icons=always --no-time --no-user --git-ignore --all"
+alias dir.git="eza -l --group-directories-first --no-filesize --icons=always --no-time --no-user --git "
+alias dir.tree="eza -l --group-directories-first --no-filesize --icons=always --no-time --no-user --git-ignore --tree --level 2"
+alias dir="eza -l --group-directories-first --no-filesize --icons=always --no-time --no-user --git-ignore"
 alias zsh.apply='source ~/.zshrc'
-alias zsh.config='nano ~/.zshrc'
-alias zsh:='which zsh'
+alias zsh.config='nano ~/.zshrc
