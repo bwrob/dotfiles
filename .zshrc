@@ -12,7 +12,7 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 # -- pipx --
 export PATH="$PATH:/home/bwrob/.local/bin"
 autoload -U compinit && compinit
-eval "$(register-python-argcomplete pipx)"
+#eval "$(register-python-argcomplete pipx)"
 
 # -- oh-my-posh --
 OH_MY_POSH=$(brew --prefix oh-my-posh)

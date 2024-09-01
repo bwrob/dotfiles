@@ -23,6 +23,7 @@
         "quarto.quarto",
         "richie5um2.vscode-sort-json",
         "yzhang.markdown-all-in-one",
-        "redhat.vscode-yaml"
+        "redhat.vscode-yaml",
+        "foxundermoon.shell-format"
     ]
 }

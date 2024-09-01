@@ -5,4 +5,4 @@ alias dir.git="eza -l --group-directories-first --no-filesize --icons=always --n
 alias dir.tree="eza -l --group-directories-first --no-filesize --icons=always --no-time --no-user --git-ignore --tree --level 2"
 alias dir="eza -l --group-directories-first --no-filesize --icons=always --no-time --no-user --git-ignore"
 alias zsh.apply='source ~/.zshrc'
-alias zsh.config='nano ~/.zshrc
+alias zsh.config='nano ~/.zshrc'

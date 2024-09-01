@@ -19,6 +19,7 @@
         "github.vscode-github-actions",
         "richie5um2.vscode-sort-json",
         "jgclark.vscode-todo-highlight",
-        "ms-vscode.vs-keybindings"
+        "ms-vscode.vs-keybindings",
+        "foxundermoon.shell-format"
     ]
 }
