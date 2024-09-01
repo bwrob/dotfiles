@@ -10,7 +10,6 @@ repos:
       - id: check-json
       - id: check-xml
       - id: check-toml
-      - id: no-commit-to-branch
       - id: pretty-format-json
         args: ["--autofix", "--indent=4"]
     repo: https://github.com/pre-commit/pre-commit-hooks
