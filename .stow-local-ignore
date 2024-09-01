@@ -1,0 +1,8 @@
+# GNU Stow ignore files
+.git
+.gitignore
+.pre-commit-config.yaml
+LICENSE
+README.md
+create_vscode_symlinks.zsh
+
