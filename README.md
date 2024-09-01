@@ -1,26 +1,27 @@
 # dotfiles
 
-This repository holds my personal dotfiles, which are configuration files for various applications and tools on my Linux system. These files are managed using the `stow` tool to ensure proper linking and organization.
+This repository holds my personal dotfiles, which are configuration files for various applications and tools on my Linux system.
+
+These files are managed using the `stow` tool to ensure proper linking and organization.
 
 **Requirements:**
 
 * Ubuntu Linux system
 * Zsh shell
-* `stow` package installed (`sudo apt install stow`)
+* `stow` package installed (`brew install stow`)
 
 **Usage:**
 
 1. **Clone the repository:**
 
    ```bash
-   git clone <your-repo-url> ~/.dotfiles
+   gh repo clone dotfiles
    ```
 
 2. **Install dotfiles:**
 
    ```bash
-   cd ~/.dotfiles
-   stow -v -R *
+   cd ~/dotfiles && stow -v -R *
    ```
 
 **Configuration:**
@@ -58,9 +59,3 @@ This repository holds my personal dotfiles, which are configuration files for va
    ```bash
    rm -rf ~/.dotfiles
    ```
-
-**Note:**
-
-* For more information on `stow`, refer to the official documentation: [https://gist.github.com/andreibosco/cb8506780d0942a712fc](https://gist.github.com/andreibosco/cb8506780d0942a712fc)
-* You can customize the repository structure and configuration files to fit your specific needs.
-* Consider using a version control system like Git to track changes and manage your dotfiles effectively.
