@@ -36,3 +36,14 @@ ALIASES="/home/bwrob/.aliases.zsh"
 if [ -f $ALIASES ]; then
     source $ALIASES
 fi
+
+# -- Python project executes --
+if [[ -f pyproject.toml ]]; then
+    poetry_env_path="$(poetry env info --path)"
+    if [[ -n "$poetry_env_path" ]]; then
+        source "$poetry_env_path/bin/activate"
+        echo "Poetry environment activated: $poetry_env_path"
+    else
+        echo "Poetry environment not found. Make sure Poetry is installed and the project is initialized."
+    fi
+fi
