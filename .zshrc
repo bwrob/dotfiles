@@ -23,6 +23,9 @@ eval "$(oh-my-posh init zsh --config $OH_MY_POSH/themes/$OH_MY_POSH_THEME.omp.js
 AUTOSUGGESTIONS=$(brew --prefix zsh-autosuggestions)
 source "$AUTOSUGGESTIONS/share/zsh-autosuggestions/zsh-autosuggestions.zsh"
 
+# -- the-fuck
+eval $(thefuck --alias)
+
 # -- fzf --
 source <(fzf --zsh)
 export FZF_CTRL_T_OPTS="--preview 'bat -n --color=always --line-range :500 {}'"

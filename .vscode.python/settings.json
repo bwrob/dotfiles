@@ -48,7 +48,7 @@
     "terminal.integrated.mouseWheelZoom": true,
     "window.zoomLevel": 0.1,
     "workbench.colorTheme": "PyCharm Night Theme",
-    "workbench.iconTheme": "file-icons-colourless",
+    "workbench.iconTheme": "file-icons",
     "workbench.preferredDarkColorTheme": "PyCharm Night Theme",
     "workbench.tree.indent": 16,
     "workbench.tree.renderIndentGuides": "always",

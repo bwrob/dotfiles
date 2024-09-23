@@ -4,24 +4,31 @@ This repository holds my personal dotfiles, which are configuration files for va
 
 These files are managed using the `stow` tool to ensure proper linking and organization.
 
-**Requirements:**
+## Requirements
 
 * Ubuntu Linux system
 * Zsh shell
 * `stow` package installed (`brew install stow`)
 
-**Usage:**
+## Usage
 
-1. **Clone the repository:**
+1. Clone the repository
 
    ```bash
-   gh repo clone dotfiles
+   cd ~ && gh repo clone dotfiles
    ```
 
-2. **Install dotfiles:**
+2. Install dotfiles
 
    ```bash
    cd ~/dotfiles && stow -v -R *
+   ```
+
+3. Link needed VSC config into the project repo
+
+   ```bash
+   cd ~/repos && gh repo clone project && cd project_name
+   ln -Pf  ~/.vscode.python/*.json .vscode/
    ```
 
 **Configuration:**
