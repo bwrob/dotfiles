@@ -1,9 +1,21 @@
 {
+    "[rust]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        },
+        "editor.defaultFormatter": "rust-lang.rust-analyzer",
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ]
+    },
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.cursorWidth": 3,
     "editor.fontLigatures": true,
     "editor.minimap.renderCharacters": false,
     "editor.mouseWheelZoom": true,
+    "editor.renderLineHighlight": "all",
     "editor.stickyScroll.enabled": true,
     "editor.tabSize": 4,
     "explorer.confirmDelete": false,
@@ -12,8 +24,8 @@
     "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.mouseWheelZoom": true,
-    "window.zoomLevel": 0.5,
-    "workbench.colorTheme": "Dracula For Rust Theme",
+    "window.zoomLevel": 0.1,
+    "workbench.colorTheme": "Dekirisu's Dawn",
     "workbench.iconTheme": "file-icons-colourless",
     "workbench.tree.indent": 16,
     "workbench.tree.renderIndentGuides": "always",
