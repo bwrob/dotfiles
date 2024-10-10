@@ -52,5 +52,6 @@
     "workbench.preferredDarkColorTheme": "PyCharm Night Theme",
     "workbench.tree.indent": 16,
     "workbench.tree.renderIndentGuides": "always",
-    "zenMode.fullScreen": false
+    "zenMode.fullScreen": false,
+    "basedpyright.disableLanguageServices": true
 }

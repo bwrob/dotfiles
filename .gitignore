@@ -1,1 +1,4 @@
 # Git ignore
+
+# VSCode
+/.vscode/

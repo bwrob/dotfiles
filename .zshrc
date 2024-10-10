@@ -7,7 +7,11 @@ export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
 # --  homebrew --
 # Needs to be done before sourcing oh-my-posh and others
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+if [[ $(uname) == "Darwin" ]]; then
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+else
+    eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+fi
 
 # -- pipx --
 export PATH="$PATH:/home/bwrob/.local/bin"
