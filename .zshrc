@@ -39,7 +39,7 @@ export FZF_ALT_C_OPTS="--preview 'eza --tree --color=always {} | head -200'"
 eval "$(zoxide init zsh)"
 
 # -- Custom ZSH Aliases --
-ALIASES="/home/bwrob/.aliases.zsh"
+ALIASES=".aliases.zsh"
 if [ -f $ALIASES ]; then
     source $ALIASES
 fi
