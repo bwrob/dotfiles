@@ -11,6 +11,7 @@
             88
         ]
     },
+    "basedpyright.disableLanguageServices": true,
     "codeium.enableConfig": {
         "*": true
     },
@@ -32,6 +33,7 @@
     ],
     "indentRainbow.updateDelay": 100,
     "jupyter.askForKernelRestart": false,
+    "notebook.formatOnSave.enabled": true,
     "python.languageServer": "None",
     "python.poetryPath": "poetry",
     "python.testing.pytestArgs": [
@@ -52,6 +54,5 @@
     "workbench.preferredDarkColorTheme": "PyCharm Night Theme",
     "workbench.tree.indent": 16,
     "workbench.tree.renderIndentGuides": "always",
-    "zenMode.fullScreen": false,
-    "basedpyright.disableLanguageServices": true
+    "zenMode.fullScreen": false
 }
