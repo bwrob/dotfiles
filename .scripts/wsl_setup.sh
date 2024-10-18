@@ -26,3 +26,13 @@ gh auth login
 # Install Rust
 echo "--- Installing Rust ---"
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+# Install Haskell
+echo "--- Installing Haskell ---"
+curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
+cabal install stylish-haskell
+
+# Install Python
+echo "--- Installing Python ---"
+brew install python3
+python3 --version

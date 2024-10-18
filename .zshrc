@@ -54,3 +54,6 @@ if [[ -f pyproject.toml ]]; then
         echo "Poetry environment not found. Make sure Poetry is installed and the project is initialized."
     fi
 fi
+
+# -- ghcup-env --
+[ -f "/Users/bwrob/.ghcup/env" ] && . "/Users/bwrob/.ghcup/env" # ghcup-env
