@@ -46,7 +46,7 @@
     "ruff.configuration": "ruff.toml",
     "ruff.configurationPreference": "filesystemFirst",
     "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
-    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.fontSize": 14,
     "terminal.integrated.mouseWheelZoom": true,
     "window.zoomLevel": 0.1,
     "workbench.colorTheme": "PyCharm Night Theme",

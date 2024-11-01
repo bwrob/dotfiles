@@ -33,6 +33,40 @@ curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
 cabal install stylish-haskell
 
 # Install Python
-echo "--- Installing Python ---"
+echo "--- Installing Python setup ---"
 brew install python3
 python3 --version
+
+brew install pipx
+pipx ensurepath
+
+pipx install argcomplete --force
+echo 'autoload -U compinit && compinit' >> ~/.zshrc
+echo 'eval "$(register-python-argcomplete pipx)"' >> ~/.zshrc
+
+pipx install poetry poethepoet pre-commit pytest ruff basedpyright
+
+# Install Quarto
+echo "--- Installing Quarto ---"
+wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.5.57/quarto-1.5.57-linux-amd64.tar.gz
+mkdir ~/.local/share/quarto
+tar -C ~/.local/share/quarto -xvzf quarto-1.5.57-linux-amd64.tar.gz
+ln -s ~/.local/share/quarto/quarto-1.5.57/bin/quarto ~/.local/bin/quarto
+quarto install tinytex
+quarto install chromium
+quarto check
+
+# Install other tools
+echo "--- Installing other tools ---"
+brew install \
+    bat \
+    cmake \
+    fzf \
+    neovim \
+    nerdfetch  \
+    oh-my-posh \
+    thefuck \
+    tmux \
+    zoxide \
+    zsh-autosuggestions \
+    zsh-syntax-highlighting

@@ -27,6 +27,9 @@ eval "$(oh-my-posh init zsh --config $OH_MY_POSH/themes/$OH_MY_POSH_THEME.omp.js
 AUTOSUGGESTIONS=$(brew --prefix zsh-autosuggestions)
 source "$AUTOSUGGESTIONS/share/zsh-autosuggestions/zsh-autosuggestions.zsh"
 
+# -- zsh-syntax-highlighting --
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 # -- the-fuck
 eval $(thefuck --alias)
 
@@ -44,6 +47,14 @@ if [ -f $ALIASES ]; then
     source $ALIASES
 fi
 
+# -- ghcup-env --
+[ -f "/Users/bwrob/.ghcup/env" ] && . "/Users/bwrob/.ghcup/env" # ghcup-env
+
+
+# -- Nerdfetch --
+nerdfetch
+echo -e "  Welcome user $USER!\n"
+
 # -- Python project executes --
 if [[ -f pyproject.toml ]]; then
     poetry_env_path="$(poetry env info --path)"
@@ -54,6 +65,3 @@ if [[ -f pyproject.toml ]]; then
         echo "Poetry environment not found. Make sure Poetry is installed and the project is initialized."
     fi
 fi
-
-# -- ghcup-env --
-[ -f "/Users/bwrob/.ghcup/env" ] && . "/Users/bwrob/.ghcup/env" # ghcup-env
