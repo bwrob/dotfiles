@@ -50,7 +50,7 @@ These files are managed using the `stow` tool to ensure proper linking and organ
 2. **Update links using `stow`:**
 
    ```bash
-   stow -v -R *
+   stow -v -R  scripts terminal vscode
    ```
 
 **Uninstalling dotfiles:**

@@ -1,4 +1,4 @@
-#!/home/linuxbrew/.linuxbrew/bin/zsh
+#!/bin/zsh
 
 # Get the repository name and settings flavor as arguments
 echo "Enter a source file name:"

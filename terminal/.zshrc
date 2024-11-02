@@ -42,17 +42,14 @@ export FZF_ALT_C_OPTS="--preview 'eza --tree --color=always {} | head -200'"
 eval "$(zoxide init zsh)"
 
 # -- Custom ZSH Aliases --
-ALIASES=".aliases.zsh"
-if [ -f $ALIASES ]; then
-    source $ALIASES
-fi
+source ~/.aliases.zsh
 
 # -- ghcup-env --
-[ -f "/Users/bwrob/.ghcup/env" ] && . "/Users/bwrob/.ghcup/env" # ghcup-env
+[ -f ~/.ghcup/env ] && . ~/.ghcup/env # ghcup-env
 
 
 # -- Fastfetch   --
-fastfetch -c neofetch
+fastfetch -c ~/.fastfetch_config.json
 
 # -- Python project executes --
 if [[ -f pyproject.toml ]]; then
