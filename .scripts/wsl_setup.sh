@@ -63,7 +63,7 @@ brew install \
     cmake \
     fzf \
     neovim \
-    nerdfetch  \
+    fastfetch  \
     oh-my-posh \
     thefuck \
     tmux \

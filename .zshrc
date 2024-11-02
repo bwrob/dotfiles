@@ -51,9 +51,8 @@ fi
 [ -f "/Users/bwrob/.ghcup/env" ] && . "/Users/bwrob/.ghcup/env" # ghcup-env
 
 
-# -- Nerdfetch --
-nerdfetch
-echo -e "  Welcome user $USER!\n"
+# -- Fastfetch   --
+fastfetch -c neofetch
 
 # -- Python project executes --
 if [[ -f pyproject.toml ]]; then

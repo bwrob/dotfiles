@@ -21,8 +21,8 @@ _darcs
 .+~          # emacs backup files
 \#.*\#       # emacs autosave files
 
-^/README.*
-^/LICENSE.*
+README.*
+LICENSE.*
 ^/COPYING
 
 ^/.pre-commit-config.yaml
