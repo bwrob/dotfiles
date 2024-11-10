@@ -20,7 +20,7 @@ eval "$(register-python-argcomplete pipx)"
 
 # -- oh-my-posh --
 OH_MY_POSH=$(brew --prefix oh-my-posh)
-OH_MY_POSH_THEME="slim"
+OH_MY_POSH_THEME="kali"
 eval "$(oh-my-posh init zsh --config $OH_MY_POSH/themes/$OH_MY_POSH_THEME.omp.json)"
 
 # -- zsh-autosuggestions --
