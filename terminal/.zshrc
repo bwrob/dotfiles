@@ -13,6 +13,9 @@ else
     eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 fi
 
+# -- rust --
+"$HOME/.cargo/env"
+
 # -- pipx --
 export PATH="$PATH:/home/bwrob/.local/bin"
 autoload -U compinit && compinit
