@@ -28,7 +28,8 @@ AUTOSUGGESTIONS=$(brew --prefix zsh-autosuggestions)
 source "$AUTOSUGGESTIONS/share/zsh-autosuggestions/zsh-autosuggestions.zsh"
 
 # -- zsh-syntax-highlighting --
-source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+HIGHLIGHTING=$(brew --prefix zsh-syntax-highlighting)
+source "$HIGHLIGHTING/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 
 # -- the-fuck
 eval $(thefuck --alias)
