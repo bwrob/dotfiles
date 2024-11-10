@@ -14,7 +14,7 @@ else
 fi
 
 # -- rust --
-"$HOME/.cargo/env"
+source "$HOME/.cargo/env"
 
 # -- pipx --
 export PATH="$PATH:/home/bwrob/.local/bin"
