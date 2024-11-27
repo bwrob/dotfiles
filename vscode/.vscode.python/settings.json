@@ -1,8 +1,14 @@
 {
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
     "[python]": {
         "editor.codeActionsOnSave": {
-            "source.fixAll": "explicit",
-            "source.organizeImports": "explicit"
+            "source.fixAll": "always",
+            "source.organizeImports": "always"
         },
         "editor.defaultFormatter": "charliermarsh.ruff",
         "editor.formatOnSave": true,
@@ -11,13 +17,20 @@
             88
         ]
     },
+    "[toml]": {
+        "editor.defaultFormatter": "tamasfe.even-better-toml"
+    },
     "basedpyright.disableLanguageServices": true,
     "codeium.enableConfig": {
         "*": true
     },
+    "debug.toolBarLocation": "docked",
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.cursorWidth": 3,
     "editor.fontLigatures": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
     "editor.minimap.renderCharacters": false,
     "editor.mouseWheelZoom": true,
     "editor.stickyScroll.enabled": true,
@@ -33,9 +46,13 @@
     "evenBetterToml.formatter.indentTables": true,
     "evenBetterToml.formatter.reorderArrays": true,
     "evenBetterToml.formatter.trailingNewline": true,
+    "explorer.autoReveal": true,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "files.autoSave": "onFocusChange",
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
     "indentRainbow.excludedLanguages": [
         "qmd",
         "plaintext"
@@ -45,9 +62,15 @@
     ],
     "indentRainbow.updateDelay": 100,
     "jupyter.askForKernelRestart": false,
+    "markdown.preview.scrollEditorWithPreview": true,
+    "markdown.preview.scrollPreviewWithEditor": true,
     "notebook.formatOnSave.enabled": true,
+    "python.analysis.autoSearchPaths": true,
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+    "python.envFile": "${workspaceFolder}/.env",
     "python.languageServer": "Default",
     "python.poetryPath": "poetry",
+    "python.testing.autoTestDiscoverOnSaveEnabled": true,
     "python.testing.pytestArgs": [
         "tests"
     ],
@@ -60,11 +83,18 @@
     "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
     "terminal.integrated.fontSize": 12,
     "terminal.integrated.mouseWheelZoom": true,
-    "window.zoomLevel": -0.2,
+    "terminal.integrated.tabs.enabled": true,
+    "terminal.integrated.tabs.hideCondition": "never",
+    "terminal.integrated.tabs.location": "right",
+    "window.commandCenter": false,
+    "window.zoomLevel": 0.1,
     "workbench.colorTheme": "PyCharm Night Theme",
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.tabSizing": "shrink",
     "workbench.iconTheme": "file-icons",
     "workbench.preferredDarkColorTheme": "PyCharm Night Theme",
-    "workbench.tree.indent": 8,
+    "workbench.settings.editor": "json",
+    "workbench.tree.indent": 12,
     "workbench.tree.renderIndentGuides": "always",
     "zenMode.fullScreen": false
 }

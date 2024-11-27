@@ -1,11 +1,15 @@
 {
     "recommendations": [
-        "oderwat.indent-rainbow",
+        "aaron-bond.better-comments",
+        "alexcvzz.vscode-sqlite",
+        "bierner.markdown-mermaid",
         "charliermarsh.ruff",
         "codeium.codeium",
         "davidanson.vscode-markdownlint",
         "detachhead.basedpyright",
         "file-icons.file-icons",
+        "foxundermoon.shell-format",
+        "github.copilot",
         "github.remotehub",
         "github.vscode-github-actions",
         "github.vscode-pull-request-github",
@@ -13,17 +17,21 @@
         "magicstack.magicpython",
         "ms-python.debugpy",
         "ms-python.python",
+        "ms-python.vscode-pylance",
         "ms-toolsai.jupyter-keymap",
         "ms-toolsai.jupyter-renderers",
         "ms-toolsai.jupyter",
         "ms-toolsai.vscode-jupyter-cell-tags",
         "ms-toolsai.vscode-jupyter-slideshow",
+        "ms-vscode-remote.remote-containers",
         "ms-vscode.vs-keybindings",
         "nicohlr.pycharm",
+        "oderwat.indent-rainbow",
+        "postman.postman-for-vscode",
         "quarto.quarto",
-        "richie5um2.vscode-sort-json",
-        "yzhang.markdown-all-in-one",
         "redhat.vscode-yaml",
-        "foxundermoon.shell-format"
+        "richie5um2.vscode-sort-json",
+        "tamasfe.even-better-toml",
+        "yzhang.markdown-all-in-one"
     ]
 }
