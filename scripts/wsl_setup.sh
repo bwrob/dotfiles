@@ -44,7 +44,7 @@ pipx install argcomplete --force
 echo 'autoload -U compinit && compinit' >> ~/.zshrc
 echo 'eval "$(register-python-argcomplete pipx)"' >> ~/.zshrc
 
-pipx install poetry poethepoet pre-commit pytest ruff basedpyright
+pipx install poetry poethepoet pre-commit pytest ruff basedpyright hapless
 
 # Install Quarto
 echo "--- Installing Quarto ---"
