@@ -83,7 +83,7 @@
     "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
     "terminal.integrated.fontSize": 12,
     "terminal.integrated.mouseWheelZoom": true,
-    "terminal.integrated.tabs.enabled": true,
+    "terminal.integrated.tabs.enabled": false,
     "terminal.integrated.tabs.hideCondition": "never",
     "terminal.integrated.tabs.location": "right",
     "window.commandCenter": false,
