@@ -5,6 +5,9 @@
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
     "[python]": {
         "editor.codeActionsOnSave": {
             "source.fixAll": "always",
@@ -21,9 +24,6 @@
         "editor.defaultFormatter": "tamasfe.even-better-toml"
     },
     "basedpyright.disableLanguageServices": true,
-    "codeium.enableConfig": {
-        "*": true
-    },
     "debug.toolBarLocation": "docked",
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.cursorWidth": 3,
@@ -31,6 +31,7 @@
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "editor.formatOnSaveMode": "file",
+    "editor.minimap.enabled": false,
     "editor.minimap.renderCharacters": false,
     "editor.mouseWheelZoom": true,
     "editor.stickyScroll.enabled": true,
@@ -88,12 +89,14 @@
     "terminal.integrated.tabs.location": "right",
     "window.commandCenter": false,
     "window.zoomLevel": 0.1,
+    "workbench.activityBar.location": "top",
     "workbench.colorTheme": "PyCharm Night Theme",
     "workbench.editor.enablePreview": false,
     "workbench.editor.tabSizing": "shrink",
     "workbench.iconTheme": "file-icons",
     "workbench.preferredDarkColorTheme": "PyCharm Night Theme",
     "workbench.settings.editor": "json",
+    "workbench.sideBar.location": "right",
     "workbench.tree.indent": 12,
     "workbench.tree.renderIndentGuides": "always",
     "zenMode.fullScreen": false
