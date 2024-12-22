@@ -1,4 +1,10 @@
 {
+    "[haskell]": {
+        "editor.defaultFormatter": "vigoo.stylish-haskell"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.cursorWidth": 3,
     "editor.fontLigatures": true,
@@ -7,6 +13,7 @@
     "editor.stickyScroll.enabled": true,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
+    "haskell.manageHLS": "GHCup",
     "stylishHaskell.commandLine": "/Users/bwrob/.cabal/bin/stylish-haskell",
     "stylishHaskell.runOnSave": true,
     "stylishHaskell.showConsoleOnError": true,
