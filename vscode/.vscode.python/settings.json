@@ -55,7 +55,8 @@
     "git.confirmSync": false,
     "git.enableSmartCommit": true,
     "github.copilot.enable": {
-        "python": true
+        "python": true,
+        "quarto": true
     },
     "indentRainbow.excludedLanguages": [
         "qmd",
