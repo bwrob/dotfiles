@@ -92,7 +92,7 @@
     "terminal.integrated.tabs.hideCondition": "never",
     "terminal.integrated.tabs.location": "right",
     "window.commandCenter": false,
-    "window.zoomLevel": 0.1,
+    "window.zoomLevel": 0,
     "workbench.activityBar.location": "top",
     "workbench.colorTheme": "PyCharm Night Theme",
     "workbench.editor.enablePreview": false,
@@ -101,7 +101,7 @@
     "workbench.preferredDarkColorTheme": "PyCharm Night Theme",
     "workbench.settings.editor": "json",
     "workbench.sideBar.location": "right",
-    "workbench.tree.indent": 12,
+    "workbench.tree.indent": 16,
     "workbench.tree.renderIndentGuides": "always",
     "zenMode.fullScreen": false
 }
