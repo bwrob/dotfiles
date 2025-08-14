@@ -13,4 +13,4 @@ repos:
       - id: pretty-format-json
         args: ["--autofix", "--indent=4"]
     repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v5.0.0
+    rev: v6.0.0

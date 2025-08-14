@@ -3,6 +3,10 @@ HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
 setopt autocd
+
+autoload -Uz compinit
+compinit``
+
 export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
 # --  homebrew --
@@ -16,10 +20,6 @@ fi
 # -- rust --
 source "$HOME/.cargo/env"
 
-# -- pipx --
-export PATH="$PATH:/home/bwrob/.local/bin"
-autoload -U compinit && compinit
-eval "$(register-python-argcomplete pipx)"
 
 # -- oh-my-posh --
 OH_MY_POSH=$(brew --prefix oh-my-posh)
@@ -33,9 +33,6 @@ source "$AUTOSUGGESTIONS/share/zsh-autosuggestions/zsh-autosuggestions.zsh"
 # -- zsh-syntax-highlighting --
 HIGHLIGHTING=$(brew --prefix zsh-syntax-highlighting)
 source "$HIGHLIGHTING/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
-
-# -- the-fuck
-eval $(thefuck --alias)
 
 # -- fzf --
 source <(fzf --zsh)
@@ -51,17 +48,16 @@ source ~/.aliases.zsh
 # -- ghcup-env --
 [ -f ~/.ghcup/env ] && . ~/.ghcup/env # ghcup-env
 
-
 # -- Fastfetch   --
 fastfetch -c ~/.fastfetch_config.json
 
 # -- Python project executes --
-if [[ -f pyproject.toml ]]; then
-    poetry_env_path="$(poetry env info --path)"
-    if [[ -n "$poetry_env_path" ]]; then
-        source "$poetry_env_path/bin/activate"
-        echo "Poetry environment activated: $poetry_env_path"
-    else
-        echo "Poetry environment not found. Make sure Poetry is installed and the project is initialized."
-    fi
+if [[ -d .venv ]]; then
+    source .venv/bin/activate
 fi
+eval "$(uv generate-shell-completion zsh)"
+eval "$(uvx --generate-shell-completion zsh)"
+
+fpath+=~/.zfunc; autoload -Uz compinit; compinit
+
+zstyle ':completion:*' menu select
